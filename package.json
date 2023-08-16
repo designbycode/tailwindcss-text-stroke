@@ -1,0 +1,77 @@
+{
+  "name": "@designbycode/tailwindcss-text-stroke",
+  "version": "1.2.0",
+  "description": "Tailwindcss utilities for text stroke",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesignByCode/tailwindcss-text-stroke.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DesignByCode/tailwindcss-text-stroke/issues"
+  },
+  "homepage": "https://github.com/DesignByCode/tailwindcss-text-stroke#readme",
+  "keywords": [
+    "front-end",
+    "frontend",
+    "css",
+    "tailwindcss",
+    "plugin",
+    "tailwindcss-plugin",
+    "tailwindcss text-stroke",
+    "mask image",
+    "designbycode"
+  ],
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "module": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "pnpm build --watch",
+    "clean": "rd /s /q esm dist lib build .cache>nul 2>&1|echo.>nul",
+    "prebuild": "pnpm clean",
+    "postbuild": "tsc --emitDeclarationOnly",
+    "prepublishOnly": "pnpm build"
+  },
+  "authors": [
+    {
+      "name": "Claude Myburgh",
+      "email": "claude@designbycode.co.za",
+      "url": "https://designbycode.co.za"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/DesignByCode/tailwindcss-text-stroke/blob/main/LICENCE"
+    }
+  ],
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || >=3.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "autoprefixer": "^10.4.14",
+    "npm-run-all": "^4.1.5",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.27",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.3",
+    "terser": "^5.19.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.5.1"
+  }
+}
