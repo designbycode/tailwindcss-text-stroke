@@ -10,7 +10,6 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/min/%40designbycode%2Ftailwindcss-text-stroke)
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
 [![GitHub stars](https://img.shields.io/github/stars/DesignByCode/tailwindcss-text-stroke?style=social)](https://github.com/DesignByCode/tailwindcss-text-stroke/stargazers)
-[![HitCount](https://hits.dwyl.com/designbycode/tailwindcss-text-stroke.svg?style=flat)](http://hits.dwyl.com/designbycode/tailwindcss-text-stroke)
 
 [![NPM](https://nodei.co/npm/@designbycode/tailwindcss-text-stroke.png)](https://nodei.co/npm/@designbycode/tailwindcss-text-stroke/)
 
@@ -38,19 +37,19 @@ To use this plugin, you need to install it via pnpm, npm or yarn.
 #### Using pnpm
 
 ```bash
-pnpm add @designbycode/conic tailwindcss-text-stroke
+pnpm add @designbycode/tailwindcss-text-stroke
 ```
 
 #### Using npm
 
 ```bash
-npm install @designbycode/conic tailwindcss-text-stroke
+npm install @designbycode/tailwindcss-text-stroke
 ```
 
 #### Using yarn
 
 ```bash
-yarn add @designbycode/conic tailwindcss-text-stroke
+yarn add @designbycode/tailwindcss-text-stroke
 ```
 
 First, ensure you have Tailwind CSS installed in your project. If not, install it by following the official documentation.
@@ -68,7 +67,7 @@ module.exports = {
     // ...other configurations
     plugins: [
         // ...other plugins
-        require("@designbycode/conic tailwindcss-text-stroke"),
+        require("@designbycode/tailwindcss-text-stroke"),
     ],
 };
 ```
