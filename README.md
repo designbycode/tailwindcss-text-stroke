@@ -11,8 +11,6 @@
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
 [![GitHub stars](https://img.shields.io/github/stars/DesignByCode/tailwindcss-text-stroke?style=social)](https://github.com/DesignByCode/tailwindcss-text-stroke/stargazers)
 
-[![NPM](https://nodei.co/npm/@designbycode/tailwindcss-text-stroke.png)](https://nodei.co/npm/@designbycode/tailwindcss-text-stroke/)
-
 Add custom text stroke utilities to your Tailwind CSS project using this plugin. It allows you to apply an outline-like stroke around text using CSS properties supported by WebKit-based browsers.
 
 ## 📇 Table of Contents
